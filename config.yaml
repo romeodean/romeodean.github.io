@@ -1,0 +1,30 @@
+baseURL: "https://romeodean.github.io/"
+title: "Romeo Dean"
+defaultContentLanguage: en
+paginate: 10
+theme: PaperMod
+
+params:
+  author: "Romeo Dean"
+  homeInfoParams:
+    Title: "Hi, I'm Romeo 👋"
+    Content: >
+      Brief bio goes here – maybe your role, interests, or lab.
+  socialIcons:
+    - name: github
+      url: "https://github.com/romeodean"
+    - name: rss
+      url: "index.xml"
+
+menu:
+  main:
+    - name: Publications
+      url: /publications/
+      weight: 1
+    - name: Blog
+      url: /posts/
+      weight: 2
+    - name: CV
+      url: /cv/
+      weight: 3
+
