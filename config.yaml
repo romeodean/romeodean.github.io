@@ -1,7 +1,9 @@
 baseURL: "https://romeodean.github.io/"
 title: "Romeo Dean"
 defaultContentLanguage: en
-paginate: 10
+pagination:
+  perPage: 10      # ← number of posts/papers per page
+  pagerSize: 5     # ← how many page links (1 2 3 4 5) to show in the nav bar
 theme: PaperMod
 
 params:
